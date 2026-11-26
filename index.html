@@ -4,10 +4,6 @@
     <title> Ôn Tập Bài 9 & 10</title>
 
     <style>
-          h1 {
-	    text-indent: 210px;
-          }
-
           body > ol > li {
             font-weight: bold;
 	    color: blue;
@@ -16,6 +12,34 @@
 	  body > ol > ol> li {
             font-weight: bold;
           }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+        font-size: clamp(14px, 2vw, 20px);
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 15px auto;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    @media (max-width: 600px) {
+        body {
+            padding: 12px;
+        }
+    }
     </style>
 </head>
 <body>
